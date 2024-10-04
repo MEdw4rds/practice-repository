@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: hsl(210, 58%, 54%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 2.5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+}
+
+nav a:hover {
+    background-color:  hsl(210, 44%, 64%);
+}
+
+header h1 {
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+    transition: transform.2s;
+}
+
+header h1:hover {
+    transform: scale(1.5);
+}
+
+.card {
+    float: left;
+    width: 20%;
+    margin-left: 5%
+}
+
+.card a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.card img {
+    height: 200px;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.card h2 {
+    text-align: center;
+}
